@@ -1,6 +1,6 @@
 # lottery
 
-> A Vue.js project
+> 年会3D抽奖，奖项设置，表单导出
 
 ## Build Setup
 
