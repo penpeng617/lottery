@@ -6,7 +6,17 @@
 
 ``` bash
 # install dependencies
+//安装依赖
 npm install
+//接口请求
+npm install axios --save
+//随机模拟数据库
+npm install mockjs --save-dev
+
+//此处安装需要将中奖名单已excel表格格式下载到本地
+npm i element-ui -S
+npm install js-xlsx file-saver -S
+npm install script-loader -S -D //它帮我们挂载了，不需要引入到main.js里面
 
 # serve with hot reload at localhost:8080
 npm run dev
