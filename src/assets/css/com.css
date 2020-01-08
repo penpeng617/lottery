@@ -1,0 +1,53 @@
+*{
+  /* 禁止选中的文字的标签 */
+  moz-user-select: -moz-none; 
+   -moz-user-select: none; 
+   -o-user-select:none; 
+   -khtml-user-select:none; 
+   -webkit-user-select:none; 
+   -ms-user-select:none; 
+   user-select:none;
+}
+button:focus{
+outline: none;
+}
+.awardsBox,.winnerBox,.participateNum {
+  position:fixed;
+color: #fff;
+font-weight: bold;
+text-align: center;
+background-color: rgba(92, 97, 130, .5);
+z-index:99;
+}
+.awardsBox,.winnerBox{
+  top:10%;
+  width: 260px;
+  height: 660px;
+  padding: 6px 0;
+  border-radius: 5px;
+}
+.awardsList:after,.winnerTit:after{
+  content:"";
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  top:46px;
+  transform: translateX(-50%);
+  height:1px;
+  width:190px;
+  background:rgba(255,255, 255, .1);
+}
+.awardsBox{
+  left:5%;
+}
+.winnerBox{
+  right:5%;
+}
+.awardsList,.winnerTit {
+padding: 0 10px;
+line-height: 30px;
+padding: 5px;
+font-size: 24px;
+color: #fff;
+}
+.positionCenter{position:absolute;left:50%;top:50%;transform:translateX(-50%) translateY(-50%)}
