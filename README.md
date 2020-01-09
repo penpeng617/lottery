@@ -3,7 +3,7 @@
 > 年会3D抽奖，奖项设置，表单导出
 
 ## Build Setup
-
+demo预览：https://blog.csdn.net/p1382526/article/details/103892834
 ``` bash
 # install dependencies
 //安装依赖
